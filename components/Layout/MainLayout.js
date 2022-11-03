@@ -4,7 +4,9 @@ const MainLayout = ({children}) => {
     return (
         <div>
           <Navbar/>
+          <div className="nav-h">
           {children}
+            </div>
           <Footer/>
         </div>
     )
